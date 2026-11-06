@@ -10,4 +10,4 @@ console.log(h1_id.textContent);
 const p2 = document.querySelector("intro");
 console.log(p);
 console.log(p2);
-// i noticed that after removing the dot the program didnt identify it
+// i noticed that after removing the dot the program did not identify it
