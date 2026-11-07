@@ -7,3 +7,4 @@ prix = 199 ;
 // nom = "mouse";
 n.textContent =  nom;
 price.textContent = prix + "DH";
+// cant change the variable of a const or else the console will show an error
