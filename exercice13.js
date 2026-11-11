@@ -5,7 +5,6 @@ const produits = [
   { nom: "Tapis", prix: 60, stock: 12 },
 ];
 function afficher(tableau) {
-  liste.textContent = "";
   tableau.forEach((produit) => {
     const li = document.createElement("li");
     li.textContent = produit.nom + "-" + produit.prix + "DH";
