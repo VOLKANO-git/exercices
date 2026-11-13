@@ -41,3 +41,4 @@ if (bouton.dataset.action === 'plus') {
 }
   rendre();
 });
+
