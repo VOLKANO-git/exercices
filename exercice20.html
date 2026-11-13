@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="p-8">
+    <form id="form" class="grid grid-cols-3 gap-2">
+      <input name="libelle" placeholder="Libellé" class="border p-2" />
+      <input
+        name="montant"
+        type="number"
+        placeholder="Montant"
+        class="border p-2"
+      />
+      <select name="categorie" class="border p-2">
+        <option>Courses</option>
+        <option>Transport</option>
+        <option>Loisirs</option>
+      </select>
+      <button class="col-span-3 bg-blue-600 text-white">Ajouter</button>
+    </form>
+    <p id="erreur" class="text-red-600"></p>
+    <input id="recherche" placeholder="Rechercher" class="border p-2 w-full" />
+    <div id="filtres" class="space-x-2">
+      <button data-cat="Toutes">Toutes</button>
+      <button data-cat="Courses">Courses</button>
+      <button data-cat="Transport">Transport</button>
+      <button data-cat="Loisirs">Loisirs</button>
+    </div>
+    <ul id="liste" class="space-y-2"></ul>
+    <p class="font-bold">Total affiché : <span id="total">0</span> DH</p>
+  </body>
+</html>
